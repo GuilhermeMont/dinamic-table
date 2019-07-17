@@ -26,7 +26,7 @@ class App extends Component{
 
   render() {
 
-    const heads = ['Nome', 'Idade','Telefone'];
+    const heads = ['Name', 'Age','Phone'];
     const tags = ['name','age','phone'];
     const clients = [...this.state.clients];
 
